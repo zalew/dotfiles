@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Shell
+
+cp ~/.{zshrc,bashrc,bash_aliases,bash_profile} ./
+
+# Atom
+
+cp ~/.atom/*.{cson,coffee,less} ./.atom
+apm list --installed --bare > ./.atom/packages.list
+
+# restore: apm install --packages-file packages.list
+
+# Git
+
+cp ~/.git-completion.sh ~/.gitconfig ./
+
+

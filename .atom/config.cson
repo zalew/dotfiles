@@ -1,0 +1,52 @@
+"*":
+  "autocomplete-python":
+    extraPaths: "/home/zalew/.virtualenvs/$PROJECT_NAME/lib/site-packages"
+    pythonPaths: "/home/zalew/.virtualenvs/$PROJECT_NAME/bin/python"
+  core:
+    audioBeep: false
+    closeEmptyWindows: false
+    disabledPackages: [
+      "python-jedi"
+      "linter-scss-lint"
+    ]
+    ignoredNames: [
+      "*.pyc"
+    ]
+    projectHome: "/home/zalew/projects"
+    themes: [
+      "atom-dark-ui"
+      "atom-monokai"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 79
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "131bcaf7-c563-1a60-cb8e-52456fa673f6"
+  "linter-flake8": {}
+  "python-autopep8":
+    formatOnSave: true
+    maxLineLength: 79
+  "python-isort":
+    sortOnSave: true
+  "python-tools": {}
+  "rst-preview": {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+    keepMarkdownLineBreakWhitespace: false
+".angular.html.text":
+  editor:
+    preferredLineLength: 79
+".django.html.text":
+  editor:
+    preferredLineLength: 79
+".django.python.source":
+  editor:
+    preferredLineLength: 79
