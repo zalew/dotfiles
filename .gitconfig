@@ -1,31 +1,31 @@
 [user]
-	name = Jakub Zalewski
-	email = zalew7@gmail.com
+    name = Jakub Zalewski
+    email = zalew7@gmail.com
 [alias]
-	co = checkout
-	br = branch
-	cb = checkout -b
-	ci = commit
-	st = status
-	staged = diff --staged
-	unstage = reset HEAD --
-	last = log -1 HEAD
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	lgf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --stat
-	log-graph = log --all --graph --decorate
-	log-refs = log --all --graph --decorate --oneline --simplify-by-decoration --no-merges
-	log-timeline = log --format='%h %an %ar - %s'
-	log-local = log --oneline origin..HEAD
-	log-fetched = log --oneline HEAD..origin/master
-	heads = !"git log origin/master.. --format='%Cred%h%Creset;%C(yellow)%an%Creset;%H;%Cblue%f%Creset' | git name-rev --stdin --always --name-only | column -t -s';'"
-	fix = commit --amend -C HEAD
-	branch-tree = log --graph --simplify-by-decoration --pretty=format:'%d' --all
-[color] 
-	ui = auto
+    co = checkout
+    br = branch
+    cb = checkout -b
+    ci = commit
+    st = status
+    staged = diff --staged
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lgf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --stat
+    log-graph = log --all --graph --decorate
+    log-refs = log --all --graph --decorate --oneline --simplify-by-decoration --no-merges
+    log-timeline = log --format='%h %an %ar - %s'
+    log-local = log --oneline origin..HEAD
+    log-fetched = log --oneline HEAD..origin/master
+    heads = !"git log origin/master.. --format='%Cred%h%Creset;%C(yellow)%an%Creset;%H;%Cblue%f%Creset' | git name-rev --stdin --always --name-only | column -t -s';'"
+    fix = commit --amend -C HEAD
+    branch-tree = log --graph --simplify-by-decoration --pretty=format:'%d' --all
+[color]
+    ui = auto
 [push]
-	default = matching
+    default = matching
 [help]
-	autocorrect = 1
+    autocorrect = 1
 [core]
 	editor = vim
 [merge]

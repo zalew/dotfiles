@@ -67,8 +67,8 @@ fi
 
 eval `dircolors ~/.dircolors`
 
-export PATH="$PATH":~/npm/bin
-export NODE_PATH=$NODE_PATH:/home/zalew/npm/lib/node_modules
+export PATH="$PATH":~/.npm-global/bin
+export NODE_PATH=$NODE_PATH:/home/zalew/.npm-global/lib/node_modules
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 #source /home/zalew/.rvm/scripts/rvm
