@@ -7,15 +7,37 @@
   "atom-beautify":
     general:
       _analyticsUserId: "e043c8f8-0e0d-48fb-a491-8f10805c07ff"
+      analytics: false
+      muteAllErrors: true
+      muteUnsupportedLanguageErrors: true
+    handlebars:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_inner_html: true
+      max_preserve_newlines: 2
+    html:
+      beautify_on_save: true
+      indent_inner_html: true
+      max_preserve_newlines: 2
+    js:
+      beautify_on_save: true
+      end_with_comma: true
+      end_with_newline: true
+      jslint_happy: true
+    scss:
+      beautify_on_save: true
+    spacebars:
+      beautify_on_save: true
   core:
+    audioBeep: false
     disabledPackages: [
       "file-type-icons"
       "linter-eslint"
+      "atom-prettify"
     ]
   editor:
     fontSize: 11
     invisibles: {}
-    scrollPastEnd: true
     softWrap: true
     tabLength: 4
     tabType: "soft"
@@ -28,5 +50,7 @@
     lintHtmlFiles: true
   "meteor-helper":
     meteorPort: 3030
+  "save-session":
+    dataSaveFolder: "/home/zalew/.atom/packages/save-session/projects"
   welcome:
     showOnStartup: false
